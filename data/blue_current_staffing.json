@@ -1,0 +1,1778 @@
+{
+  "metadata": {
+    "parkName": "Blue Current Adventure Park",
+    "operatingDate": "2026-08-15",
+    "parkOpen": "10:00 AM",
+    "parkClose": "6:00 PM",
+    "employeeShiftEnd": "6:30 PM",
+    "dataClassification": "Synthetic training data",
+    "notes": "All names, assignments, attractions, and operational records are fictional."
+  },
+  "staffingSummary": {
+    "totalEmployees": 74,
+    "rotationEmployees": 68,
+    "coordinators": 6,
+    "rotations": 17
+  },
+  "attractions": [
+    {
+      "id": "AT-CC-01",
+      "zone": "Current Cove",
+      "name": "Tidepool Terrace",
+      "type": "Family activity pool"
+    },
+    {
+      "id": "AT-CC-02",
+      "zone": "Current Cove",
+      "name": "Harbor Drift",
+      "type": "Slow-current river"
+    },
+    {
+      "id": "AT-CC-03",
+      "zone": "Current Cove",
+      "name": "Coral Crossing",
+      "type": "Children's water-play area"
+    },
+    {
+      "id": "AT-BB-01",
+      "zone": "Tidal Bay",
+      "name": "Tidal Bay Wave Pool",
+      "type": "Large wave pool"
+    },
+    {
+      "id": "AT-RR-01",
+      "zone": "Rapids Ridge",
+      "name": "Riverstone Rafts",
+      "type": "Family raft slide"
+    },
+    {
+      "id": "AT-RR-02",
+      "zone": "Rapids Ridge",
+      "name": "Canyon Current",
+      "type": "Enclosed raft slide"
+    },
+    {
+      "id": "AT-RR-03",
+      "zone": "Rapids Ridge",
+      "name": "Ridge Racers",
+      "type": "Multi-lane mat slide"
+    },
+    {
+      "id": "AT-BP-01",
+      "zone": "Blue Peak",
+      "name": "Blue Surge",
+      "type": "High-speed body slide"
+    },
+    {
+      "id": "AT-BP-02",
+      "zone": "Blue Peak",
+      "name": "Velocity Falls",
+      "type": "Multi-rider tube slide"
+    },
+    {
+      "id": "AT-BP-03",
+      "zone": "Blue Peak",
+      "name": "Abyss Drop",
+      "type": "Drop slide with deep landing pool"
+    },
+    {
+      "id": "AT-BP-04",
+      "zone": "Blue Peak",
+      "name": "Summit Landing Pool",
+      "type": "Shared shallow landing pool"
+    },
+    {
+      "id": "AT-BP-05",
+      "zone": "Blue Peak",
+      "name": "Current Falls",
+      "type": "Shallow-water slide complex"
+    }
+  ],
+  "rotations": [
+    {
+      "id": "SW-CC-01",
+      "zone": "Current Cove",
+      "role": "Shallow Water Lifeguard",
+      "name": "Tidepool Loop",
+      "attractionId": "AT-CC-01",
+      "attraction": "Tidepool Terrace",
+      "stands": [
+        {
+          "id": "SW-CC-01-S1",
+          "name": "North Shore",
+          "extension": "1001"
+        },
+        {
+          "id": "SW-CC-01-S2",
+          "name": "Activity Island",
+          "extension": "1002"
+        },
+        {
+          "id": "SW-CC-01-S3",
+          "name": "South Shore",
+          "extension": "1003"
+        }
+      ]
+    },
+    {
+      "id": "SW-CC-02",
+      "zone": "Current Cove",
+      "role": "Shallow Water Lifeguard",
+      "name": "Harbor Drift",
+      "attractionId": "AT-CC-02",
+      "attraction": "Harbor Drift",
+      "stands": [
+        {
+          "id": "SW-CC-02-S1",
+          "name": "Entry Bend",
+          "extension": "1004"
+        },
+        {
+          "id": "SW-CC-02-S2",
+          "name": "Lighthouse Curve",
+          "extension": "1005"
+        },
+        {
+          "id": "SW-CC-02-S3",
+          "name": "Exit Bend",
+          "extension": "1006"
+        }
+      ]
+    },
+    {
+      "id": "SW-CC-03",
+      "zone": "Current Cove",
+      "role": "Shallow Water Lifeguard",
+      "name": "Coral Crossing",
+      "attractionId": "AT-CC-03",
+      "attraction": "Coral Crossing",
+      "stands": [
+        {
+          "id": "SW-CC-03-S1",
+          "name": "Spray Deck",
+          "extension": "1007"
+        },
+        {
+          "id": "SW-CC-03-S2",
+          "name": "Bridge Pool",
+          "extension": "1008"
+        },
+        {
+          "id": "SW-CC-03-S3",
+          "name": "Lagoon Exit",
+          "extension": "1009"
+        }
+      ]
+    },
+    {
+      "id": "SW-BB-01",
+      "zone": "Tidal Bay",
+      "role": "Shallow Water Lifeguard",
+      "name": "Tidal East",
+      "attractionId": "AT-BB-01",
+      "attraction": "Tidal Bay Wave Pool",
+      "stands": [
+        {
+          "id": "SW-BB-01-S1",
+          "name": "East Shore One",
+          "extension": "1010"
+        },
+        {
+          "id": "SW-BB-01-S2",
+          "name": "East Shore Two",
+          "extension": "1011"
+        },
+        {
+          "id": "SW-BB-01-S3",
+          "name": "East Shore Three",
+          "extension": "1012"
+        }
+      ]
+    },
+    {
+      "id": "SW-BB-02",
+      "zone": "Tidal Bay",
+      "role": "Shallow Water Lifeguard",
+      "name": "Tidal West",
+      "attractionId": "AT-BB-01",
+      "attraction": "Tidal Bay Wave Pool",
+      "stands": [
+        {
+          "id": "SW-BB-02-S1",
+          "name": "West Shore One",
+          "extension": "1013"
+        },
+        {
+          "id": "SW-BB-02-S2",
+          "name": "West Shore Two",
+          "extension": "1014"
+        },
+        {
+          "id": "SW-BB-02-S3",
+          "name": "West Shore Three",
+          "extension": "1015"
+        }
+      ]
+    },
+    {
+      "id": "SW-RR-01",
+      "zone": "Rapids Ridge",
+      "role": "Shallow Water Lifeguard",
+      "name": "Rapids Landing",
+      "attractionId": "AT-RR-01",
+      "attraction": "Riverstone Rafts",
+      "stands": [
+        {
+          "id": "SW-RR-01-S1",
+          "name": "Landing Left",
+          "extension": "1016"
+        },
+        {
+          "id": "SW-RR-01-S2",
+          "name": "Landing Center",
+          "extension": "1017"
+        },
+        {
+          "id": "SW-RR-01-S3",
+          "name": "Landing Right",
+          "extension": "1018"
+        }
+      ]
+    },
+    {
+      "id": "SW-BP-01",
+      "zone": "Blue Peak",
+      "role": "Shallow Water Lifeguard",
+      "name": "Summit Landing",
+      "attractionId": "AT-BP-04",
+      "attraction": "Summit Landing Pool",
+      "stands": [
+        {
+          "id": "SW-BP-01-S1",
+          "name": "Surge Runout",
+          "extension": "1019"
+        },
+        {
+          "id": "SW-BP-01-S2",
+          "name": "Shared Center",
+          "extension": "1020"
+        },
+        {
+          "id": "SW-BP-01-S3",
+          "name": "Velocity Runout",
+          "extension": "1021"
+        }
+      ]
+    },
+    {
+      "id": "SW-BP-02",
+      "zone": "Blue Peak",
+      "role": "Shallow Water Lifeguard",
+      "name": "Current Falls",
+      "attractionId": "AT-BP-05",
+      "attraction": "Current Falls",
+      "stands": [
+        {
+          "id": "SW-BP-02-S1",
+          "name": "Falls Entry",
+          "extension": "1022"
+        },
+        {
+          "id": "SW-BP-02-S2",
+          "name": "Falls Center",
+          "extension": "1023"
+        },
+        {
+          "id": "SW-BP-02-S3",
+          "name": "Falls Exit",
+          "extension": "1024"
+        }
+      ]
+    },
+    {
+      "id": "DW-BB-01",
+      "zone": "Tidal Bay",
+      "role": "Deep Water Lifeguard",
+      "name": "Tidal Deep North",
+      "attractionId": "AT-BB-01",
+      "attraction": "Tidal Bay Wave Pool",
+      "stands": [
+        {
+          "id": "DW-BB-01-S1",
+          "name": "North Platform",
+          "extension": "1025"
+        },
+        {
+          "id": "DW-BB-01-S2",
+          "name": "North Center",
+          "extension": "1026"
+        },
+        {
+          "id": "DW-BB-01-S3",
+          "name": "North Transition",
+          "extension": "1027"
+        }
+      ]
+    },
+    {
+      "id": "DW-BB-02",
+      "zone": "Tidal Bay",
+      "role": "Deep Water Lifeguard",
+      "name": "Tidal Deep South",
+      "attractionId": "AT-BB-01",
+      "attraction": "Tidal Bay Wave Pool",
+      "stands": [
+        {
+          "id": "DW-BB-02-S1",
+          "name": "South Platform",
+          "extension": "1028"
+        },
+        {
+          "id": "DW-BB-02-S2",
+          "name": "South Center",
+          "extension": "1029"
+        },
+        {
+          "id": "DW-BB-02-S3",
+          "name": "South Transition",
+          "extension": "1030"
+        }
+      ]
+    },
+    {
+      "id": "DW-BP-01",
+      "zone": "Blue Peak",
+      "role": "Deep Water Lifeguard",
+      "name": "Blue Peak Deep Landing",
+      "attractionId": "AT-BP-03",
+      "attraction": "Abyss Drop",
+      "stands": [
+        {
+          "id": "DW-BP-01-S1",
+          "name": "Deep Entry",
+          "extension": "1031"
+        },
+        {
+          "id": "DW-BP-01-S2",
+          "name": "Deep Center",
+          "extension": "1032"
+        },
+        {
+          "id": "DW-BP-01-S3",
+          "name": "Deep Exit",
+          "extension": "1033"
+        }
+      ]
+    },
+    {
+      "id": "SO-RR-01",
+      "zone": "Rapids Ridge",
+      "role": "Slide Operator",
+      "name": "Riverstone Rafts",
+      "attractionId": "AT-RR-01",
+      "attraction": "Riverstone Rafts",
+      "stands": [
+        {
+          "id": "SO-RR-01-S1",
+          "name": "Queue Entry",
+          "extension": "1034"
+        },
+        {
+          "id": "SO-RR-01-S2",
+          "name": "Raft Load",
+          "extension": "1035"
+        },
+        {
+          "id": "SO-RR-01-S3",
+          "name": "Dispatch",
+          "extension": "1036"
+        }
+      ]
+    },
+    {
+      "id": "SO-RR-02",
+      "zone": "Rapids Ridge",
+      "role": "Slide Operator",
+      "name": "Canyon Current",
+      "attractionId": "AT-RR-02",
+      "attraction": "Canyon Current",
+      "stands": [
+        {
+          "id": "SO-RR-02-S1",
+          "name": "Tower Entry",
+          "extension": "1037"
+        },
+        {
+          "id": "SO-RR-02-S2",
+          "name": "Raft Load",
+          "extension": "1038"
+        },
+        {
+          "id": "SO-RR-02-S3",
+          "name": "Dispatch",
+          "extension": "1039"
+        }
+      ]
+    },
+    {
+      "id": "SO-RR-03",
+      "zone": "Rapids Ridge",
+      "role": "Slide Operator",
+      "name": "Ridge Racers",
+      "attractionId": "AT-RR-03",
+      "attraction": "Ridge Racers",
+      "stands": [
+        {
+          "id": "SO-RR-03-S1",
+          "name": "Mat Pickup",
+          "extension": "1040"
+        },
+        {
+          "id": "SO-RR-03-S2",
+          "name": "Lane Load",
+          "extension": "1041"
+        },
+        {
+          "id": "SO-RR-03-S3",
+          "name": "Dispatch",
+          "extension": "1042"
+        }
+      ]
+    },
+    {
+      "id": "SO-BP-01",
+      "zone": "Blue Peak",
+      "role": "Slide Operator",
+      "name": "Blue Surge",
+      "attractionId": "AT-BP-01",
+      "attraction": "Blue Surge",
+      "stands": [
+        {
+          "id": "SO-BP-01-S1",
+          "name": "Tower Entry",
+          "extension": "1043"
+        },
+        {
+          "id": "SO-BP-01-S2",
+          "name": "Load Platform",
+          "extension": "1044"
+        },
+        {
+          "id": "SO-BP-01-S3",
+          "name": "Dispatch",
+          "extension": "1045"
+        }
+      ]
+    },
+    {
+      "id": "SO-BP-02",
+      "zone": "Blue Peak",
+      "role": "Slide Operator",
+      "name": "Velocity Falls",
+      "attractionId": "AT-BP-02",
+      "attraction": "Velocity Falls",
+      "stands": [
+        {
+          "id": "SO-BP-02-S1",
+          "name": "Queue Entry",
+          "extension": "1046"
+        },
+        {
+          "id": "SO-BP-02-S2",
+          "name": "Tube Load",
+          "extension": "1047"
+        },
+        {
+          "id": "SO-BP-02-S3",
+          "name": "Dispatch",
+          "extension": "1048"
+        }
+      ]
+    },
+    {
+      "id": "SO-BP-03",
+      "zone": "Blue Peak",
+      "role": "Slide Operator",
+      "name": "Abyss Drop",
+      "attractionId": "AT-BP-03",
+      "attraction": "Abyss Drop",
+      "stands": [
+        {
+          "id": "SO-BP-03-S1",
+          "name": "Queue Entry",
+          "extension": "1049"
+        },
+        {
+          "id": "SO-BP-03-S2",
+          "name": "Launch Platform",
+          "extension": "1050"
+        },
+        {
+          "id": "SO-BP-03-S3",
+          "name": "Dispatch",
+          "extension": "1051"
+        }
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "employeeId": "BCAP-0001",
+      "employeeName": "Maya Nguyen",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-01",
+      "rotationName": "Tidepool Loop",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0002",
+      "employeeName": "Ethan Johnson",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-01",
+      "rotationName": "Tidepool Loop",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0003",
+      "employeeName": "Sofia Ramirez",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-01",
+      "rotationName": "Tidepool Loop",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0004",
+      "employeeName": "Jordan Morales",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-01",
+      "rotationName": "Tidepool Loop",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0005",
+      "employeeName": "Camila Chen",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-02",
+      "rotationName": "Harbor Drift",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0006",
+      "employeeName": "Noah Rivera",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-02",
+      "rotationName": "Harbor Drift",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0007",
+      "employeeName": "Aaliyah Foster",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-02",
+      "rotationName": "Harbor Drift",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0008",
+      "employeeName": "Lucas Bennett",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-02",
+      "rotationName": "Harbor Drift",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0009",
+      "employeeName": "Priya Patel",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-03",
+      "rotationName": "Coral Crossing",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0010",
+      "employeeName": "Mateo Reed",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-03",
+      "rotationName": "Coral Crossing",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0011",
+      "employeeName": "Zoe Lewis",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-03",
+      "rotationName": "Coral Crossing",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0012",
+      "employeeName": "Daniel Brooks",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Current Cove",
+      "rotationId": "SW-CC-03",
+      "rotationName": "Coral Crossing",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0013",
+      "employeeName": "Nia Torres",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-01",
+      "rotationName": "Tidal East",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0014",
+      "employeeName": "Adrian Morgan",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-01",
+      "rotationName": "Tidal East",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0015",
+      "employeeName": "Isabella Kim",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-01",
+      "rotationName": "Tidal East",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0016",
+      "employeeName": "Marcus Williams",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-01",
+      "rotationName": "Tidal East",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0017",
+      "employeeName": "Elena Carter",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-02",
+      "rotationName": "Tidal West",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0018",
+      "employeeName": "Owen Santos",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-02",
+      "rotationName": "Tidal West",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0019",
+      "employeeName": "Jasmine Hernandez",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-02",
+      "rotationName": "Tidal West",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0020",
+      "employeeName": "Diego Nguyen",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "SW-BB-02",
+      "rotationName": "Tidal West",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0021",
+      "employeeName": "Maya Johnson",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Rapids Ridge",
+      "rotationId": "SW-RR-01",
+      "rotationName": "Rapids Landing",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0022",
+      "employeeName": "Ethan Ramirez",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Rapids Ridge",
+      "rotationId": "SW-RR-01",
+      "rotationName": "Rapids Landing",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0023",
+      "employeeName": "Sofia Morales",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Rapids Ridge",
+      "rotationId": "SW-RR-01",
+      "rotationName": "Rapids Landing",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0024",
+      "employeeName": "Jordan Chen",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Rapids Ridge",
+      "rotationId": "SW-RR-01",
+      "rotationName": "Rapids Landing",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0025",
+      "employeeName": "Camila Rivera",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-01",
+      "rotationName": "Summit Landing",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0026",
+      "employeeName": "Noah Foster",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-01",
+      "rotationName": "Summit Landing",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0027",
+      "employeeName": "Aaliyah Bennett",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-01",
+      "rotationName": "Summit Landing",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0028",
+      "employeeName": "Lucas Patel",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-01",
+      "rotationName": "Summit Landing",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0029",
+      "employeeName": "Priya Reed",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-02",
+      "rotationName": "Current Falls",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0030",
+      "employeeName": "Mateo Lewis",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-02",
+      "rotationName": "Current Falls",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0031",
+      "employeeName": "Zoe Brooks",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-02",
+      "rotationName": "Current Falls",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0032",
+      "employeeName": "Daniel Torres",
+      "jobRole": "Shallow Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "SW-BP-02",
+      "rotationName": "Current Falls",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Shallow Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0033",
+      "employeeName": "Nia Morgan",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-01",
+      "rotationName": "Tidal Deep North",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0034",
+      "employeeName": "Adrian Kim",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-01",
+      "rotationName": "Tidal Deep North",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0035",
+      "employeeName": "Isabella Williams",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-01",
+      "rotationName": "Tidal Deep North",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0036",
+      "employeeName": "Marcus Carter",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-01",
+      "rotationName": "Tidal Deep North",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0037",
+      "employeeName": "Elena Santos",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-02",
+      "rotationName": "Tidal Deep South",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0038",
+      "employeeName": "Owen Hernandez",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-02",
+      "rotationName": "Tidal Deep South",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0039",
+      "employeeName": "Jasmine Nguyen",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-02",
+      "rotationName": "Tidal Deep South",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0040",
+      "employeeName": "Diego Johnson",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Tidal Bay",
+      "rotationId": "DW-BB-02",
+      "rotationName": "Tidal Deep South",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0041",
+      "employeeName": "Maya Ramirez",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "DW-BP-01",
+      "rotationName": "Blue Peak Deep Landing",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0042",
+      "employeeName": "Ethan Morales",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "DW-BP-01",
+      "rotationName": "Blue Peak Deep Landing",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0043",
+      "employeeName": "Sofia Chen",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "DW-BP-01",
+      "rotationName": "Blue Peak Deep Landing",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0044",
+      "employeeName": "Jordan Rivera",
+      "jobRole": "Deep Water Lifeguard",
+      "zone": "Blue Peak",
+      "rotationId": "DW-BP-01",
+      "rotationName": "Blue Peak Deep Landing",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Deep Water",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0045",
+      "employeeName": "Camila Foster",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-01",
+      "rotationName": "Riverstone Rafts",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0046",
+      "employeeName": "Noah Bennett",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-01",
+      "rotationName": "Riverstone Rafts",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0047",
+      "employeeName": "Aaliyah Patel",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-01",
+      "rotationName": "Riverstone Rafts",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0048",
+      "employeeName": "Lucas Reed",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-01",
+      "rotationName": "Riverstone Rafts",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0049",
+      "employeeName": "Priya Lewis",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-02",
+      "rotationName": "Canyon Current",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0050",
+      "employeeName": "Mateo Brooks",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-02",
+      "rotationName": "Canyon Current",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0051",
+      "employeeName": "Zoe Torres",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-02",
+      "rotationName": "Canyon Current",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0052",
+      "employeeName": "Daniel Morgan",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-02",
+      "rotationName": "Canyon Current",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0053",
+      "employeeName": "Nia Kim",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-03",
+      "rotationName": "Ridge Racers",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0054",
+      "employeeName": "Adrian Williams",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-03",
+      "rotationName": "Ridge Racers",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0055",
+      "employeeName": "Isabella Carter",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-03",
+      "rotationName": "Ridge Racers",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0056",
+      "employeeName": "Marcus Santos",
+      "jobRole": "Slide Operator",
+      "zone": "Rapids Ridge",
+      "rotationId": "SO-RR-03",
+      "rotationName": "Ridge Racers",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0057",
+      "employeeName": "Elena Hernandez",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-01",
+      "rotationName": "Blue Surge",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0058",
+      "employeeName": "Owen Nguyen",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-01",
+      "rotationName": "Blue Surge",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0059",
+      "employeeName": "Jasmine Johnson",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-01",
+      "rotationName": "Blue Surge",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0060",
+      "employeeName": "Diego Ramirez",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-01",
+      "rotationName": "Blue Surge",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0061",
+      "employeeName": "Maya Morales",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-02",
+      "rotationName": "Velocity Falls",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0062",
+      "employeeName": "Ethan Chen",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-02",
+      "rotationName": "Velocity Falls",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0063",
+      "employeeName": "Sofia Rivera",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-02",
+      "rotationName": "Velocity Falls",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0064",
+      "employeeName": "Jordan Foster",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-02",
+      "rotationName": "Velocity Falls",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0065",
+      "employeeName": "Camila Bennett",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-03",
+      "rotationName": "Abyss Drop",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 3",
+      "break1Minutes": 45,
+      "break2Minutes": 30,
+      "breakPlan": "45 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0066",
+      "employeeName": "Noah Patel",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-03",
+      "rotationName": "Abyss Drop",
+      "arrivalTime": "9:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 2",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0067",
+      "employeeName": "Aaliyah Reed",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-03",
+      "rotationName": "Abyss Drop",
+      "arrivalTime": "9:45 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Stand 1",
+      "break1Minutes": 30,
+      "break2Minutes": 30,
+      "breakPlan": "30 + 30",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0068",
+      "employeeName": "Lucas Lewis",
+      "jobRole": "Slide Operator",
+      "zone": "Blue Peak",
+      "rotationId": "SO-BP-03",
+      "rotationName": "Abyss Drop",
+      "arrivalTime": "11:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Breaker",
+      "break1Minutes": 45,
+      "break2Minutes": 0,
+      "breakPlan": "45",
+      "certification": "Slide Operations",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0069",
+      "employeeName": "Priya Brooks",
+      "jobRole": "Operations Lead",
+      "zone": "Parkwide",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "7:30 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Operations Leadership",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0070",
+      "employeeName": "Mateo Torres",
+      "jobRole": "Base Coordinator",
+      "zone": "Parkwide",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "8:00 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Operations Base",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0071",
+      "employeeName": "Zoe Morgan",
+      "jobRole": "Area Coordinator",
+      "zone": "Current Cove",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "8:30 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Current Cove Coverage",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0072",
+      "employeeName": "Daniel Kim",
+      "jobRole": "Area Coordinator",
+      "zone": "Tidal Bay",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "8:30 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Tidal Bay Coverage",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0073",
+      "employeeName": "Nia Williams",
+      "jobRole": "Area Coordinator",
+      "zone": "Rapids Ridge",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "8:30 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Rapids Ridge Coverage",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    },
+    {
+      "employeeId": "BCAP-0074",
+      "employeeName": "Adrian Carter",
+      "jobRole": "Area Coordinator",
+      "zone": "Blue Peak",
+      "rotationId": "N/A",
+      "rotationName": "N/A",
+      "arrivalTime": "8:30 AM",
+      "shiftEnd": "6:30 PM",
+      "startingAssignment": "Blue Peak Coverage",
+      "break1Minutes": null,
+      "break2Minutes": null,
+      "breakPlan": "Coordinated coverage",
+      "certification": "Coordination",
+      "status": "Scheduled",
+      "dataClassification": "Synthetic"
+    }
+  ]
+}

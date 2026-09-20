@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "transitionMinutes": 15,
+  "minimumMinutesAfterBump": 30,
+  "breakPlans": {
+    "5:00 PM": {
+      "8:00 AM": [
+        30,
+        30
+      ],
+      "9:00 AM": [
+        30,
+        30
+      ],
+      "9:45 AM": [
+        30,
+        15
+      ],
+      "11:00 AM": [
+        45
+      ]
+    },
+    "6:00 PM": {
+      "8:00 AM": [
+        45,
+        30
+      ],
+      "9:00 AM": [
+        30,
+        30
+      ],
+      "9:45 AM": [
+        30,
+        30
+      ],
+      "11:00 AM": [
+        45
+      ]
+    },
+    "7:00 PM": {
+      "8:00 AM": [
+        45,
+        30
+      ],
+      "9:00 AM": [
+        45,
+        30
+      ],
+      "9:45 AM": [
+        30,
+        30
+      ],
+      "11:00 AM": [
+        30,
+        30
+      ]
+    },
+    "8:00 PM": {
+      "8:00 AM": [
+        45,
+        45
+      ],
+      "9:00 AM": [
+        45,
+        30
+      ],
+      "9:45 AM": [
+        45,
+        30
+      ],
+      "11:00 AM": [
+        30,
+        30
+      ]
+    }
+  },
+  "postBreakIntervals": {
+    "5:00 PM": null,
+    "6:00 PM": 30,
+    "7:00 PM": 25,
+    "8:00 PM": 25
+  },
+  "reference": {
+    "5:00 PM": {
+      "closing_time": "5:00 PM",
+      "timeline": [
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "11:10 AM",
+          "actual_start": "11:10 AM",
+          "break_end": "11:40 AM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "11:55 AM",
+          "actual_start": "11:55 AM",
+          "break_end": "12:25 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "12:40 PM",
+          "actual_start": "12:40 PM",
+          "break_end": "1:10 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "1:25 PM",
+          "actual_start": "1:25 PM",
+          "break_end": "2:10 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "2:25 PM",
+          "actual_start": "2:25 PM",
+          "break_end": "2:55 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "3:10 PM",
+          "actual_start": "3:10 PM",
+          "break_end": "3:40 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 2,
+          "duration_minutes": 15,
+          "expected_start": "3:55 PM",
+          "actual_start": "3:55 PM",
+          "break_end": "4:10 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        }
+      ],
+      "total_detected_delay_minutes": 0,
+      "post_break_schedule": {
+        "last_break_end": "4:10 PM",
+        "final_break_bump": "4:25 PM",
+        "latest_useful_bump": "4:30 PM",
+        "post_break_interval_minutes": null,
+        "post_break_bumps": []
+      },
+      "final_assignments": {
+        "Stand 1": "Cameron",
+        "Stand 2": "Blake",
+        "Stand 3": "Avery",
+        "Extra": "Dakota"
+      }
+    },
+    "6:00 PM": {
+      "closing_time": "6:00 PM",
+      "timeline": [
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "11:10 AM",
+          "actual_start": "11:10 AM",
+          "break_end": "11:55 AM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "12:10 PM",
+          "actual_start": "12:10 PM",
+          "break_end": "12:40 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "12:55 PM",
+          "actual_start": "12:55 PM",
+          "break_end": "1:25 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "1:40 PM",
+          "actual_start": "1:40 PM",
+          "break_end": "2:25 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "2:40 PM",
+          "actual_start": "2:40 PM",
+          "break_end": "3:10 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "3:25 PM",
+          "actual_start": "3:25 PM",
+          "break_end": "3:55 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "4:10 PM",
+          "actual_start": "4:10 PM",
+          "break_end": "4:40 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        }
+      ],
+      "total_detected_delay_minutes": 0,
+      "post_break_schedule": {
+        "last_break_end": "4:40 PM",
+        "final_break_bump": "4:55 PM",
+        "latest_useful_bump": "5:30 PM",
+        "post_break_interval_minutes": 30,
+        "post_break_bumps": [
+          "5:25 PM"
+        ]
+      },
+      "final_assignments": {
+        "Stand 1": "Dakota",
+        "Stand 2": "Cameron",
+        "Stand 3": "Blake",
+        "Extra": "Avery"
+      }
+    },
+    "7:00 PM": {
+      "closing_time": "7:00 PM",
+      "timeline": [
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "11:10 AM",
+          "actual_start": "11:10 AM",
+          "break_end": "11:55 AM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "12:10 PM",
+          "actual_start": "12:10 PM",
+          "break_end": "12:55 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "1:10 PM",
+          "actual_start": "1:10 PM",
+          "break_end": "1:40 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "1:55 PM",
+          "actual_start": "1:55 PM",
+          "break_end": "2:25 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "2:40 PM",
+          "actual_start": "2:40 PM",
+          "break_end": "3:10 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "3:25 PM",
+          "actual_start": "3:25 PM",
+          "break_end": "3:55 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "4:10 PM",
+          "actual_start": "4:10 PM",
+          "break_end": "4:40 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "4:55 PM",
+          "actual_start": "4:55 PM",
+          "break_end": "5:25 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        }
+      ],
+      "total_detected_delay_minutes": 0,
+      "post_break_schedule": {
+        "last_break_end": "5:25 PM",
+        "final_break_bump": "5:40 PM",
+        "latest_useful_bump": "6:30 PM",
+        "post_break_interval_minutes": 25,
+        "post_break_bumps": [
+          "6:05 PM",
+          "6:30 PM"
+        ]
+      },
+      "final_assignments": {
+        "Stand 1": "Blake",
+        "Stand 2": "Avery",
+        "Stand 3": "Dakota",
+        "Extra": "Cameron"
+      }
+    },
+    "8:00 PM": {
+      "closing_time": "8:00 PM",
+      "timeline": [
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "11:10 AM",
+          "actual_start": "11:10 AM",
+          "break_end": "11:55 AM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "12:10 PM",
+          "actual_start": "12:10 PM",
+          "break_end": "12:55 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 1,
+          "duration_minutes": 45,
+          "expected_start": "1:10 PM",
+          "actual_start": "1:10 PM",
+          "break_end": "1:55 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 1,
+          "duration_minutes": 30,
+          "expected_start": "2:10 PM",
+          "actual_start": "2:10 PM",
+          "break_end": "2:40 PM",
+          "break_end_classification": "Confirmed",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Avery",
+          "arrival": "8:00 AM",
+          "break_number": 2,
+          "duration_minutes": 45,
+          "expected_start": "2:55 PM",
+          "actual_start": "2:55 PM",
+          "break_end": "3:40 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Blake",
+          "arrival": "9:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "3:55 PM",
+          "actual_start": "3:55 PM",
+          "break_end": "4:25 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Cameron",
+          "arrival": "9:45 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "4:40 PM",
+          "actual_start": "4:40 PM",
+          "break_end": "5:10 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        },
+        {
+          "employee": "Dakota",
+          "arrival": "11:00 AM",
+          "break_number": 2,
+          "duration_minutes": 30,
+          "expected_start": "5:25 PM",
+          "actual_start": "5:25 PM",
+          "break_end": "5:55 PM",
+          "break_end_classification": "Calculated",
+          "delay_minutes": 0
+        }
+      ],
+      "total_detected_delay_minutes": 0,
+      "post_break_schedule": {
+        "last_break_end": "5:55 PM",
+        "final_break_bump": "6:10 PM",
+        "latest_useful_bump": "7:30 PM",
+        "post_break_interval_minutes": 25,
+        "post_break_bumps": [
+          "6:35 PM",
+          "7:00 PM",
+          "7:25 PM"
+        ]
+      },
+      "final_assignments": {
+        "Stand 1": "Cameron",
+        "Stand 2": "Blake",
+        "Stand 3": "Avery",
+        "Extra": "Dakota"
+      }
+    }
+  },
+  "delayedReference": {
+    "closing_time": "6:00 PM",
+    "timeline": [
+      {
+        "employee": "Avery",
+        "arrival": "8:00 AM",
+        "break_number": 1,
+        "duration_minutes": 45,
+        "expected_start": "11:10 AM",
+        "actual_start": "11:10 AM",
+        "break_end": "11:55 AM",
+        "break_end_classification": "Confirmed",
+        "delay_minutes": 0
+      },
+      {
+        "employee": "Blake",
+        "arrival": "9:00 AM",
+        "break_number": 1,
+        "duration_minutes": 30,
+        "expected_start": "12:10 PM",
+        "actual_start": "12:18 PM",
+        "break_end": "12:48 PM",
+        "break_end_classification": "Confirmed",
+        "delay_minutes": 8
+      },
+      {
+        "employee": "Cameron",
+        "arrival": "9:45 AM",
+        "break_number": 1,
+        "duration_minutes": 30,
+        "expected_start": "1:03 PM",
+        "actual_start": "1:03 PM",
+        "break_end": "1:33 PM",
+        "break_end_classification": "Confirmed",
+        "delay_minutes": 0
+      },
+      {
+        "employee": "Dakota",
+        "arrival": "11:00 AM",
+        "break_number": 1,
+        "duration_minutes": 45,
+        "expected_start": "1:48 PM",
+        "actual_start": "1:48 PM",
+        "break_end": "2:33 PM",
+        "break_end_classification": "Confirmed",
+        "delay_minutes": 0
+      },
+      {
+        "employee": "Avery",
+        "arrival": "8:00 AM",
+        "break_number": 2,
+        "duration_minutes": 30,
+        "expected_start": "2:48 PM",
+        "actual_start": "2:48 PM",
+        "break_end": "3:18 PM",
+        "break_end_classification": "Calculated",
+        "delay_minutes": 0
+      },
+      {
+        "employee": "Blake",
+        "arrival": "9:00 AM",
+        "break_number": 2,
+        "duration_minutes": 30,
+        "expected_start": "3:33 PM",
+        "actual_start": "3:33 PM",
+        "break_end": "4:03 PM",
+        "break_end_classification": "Calculated",
+        "delay_minutes": 0
+      },
+      {
+        "employee": "Cameron",
+        "arrival": "9:45 AM",
+        "break_number": 2,
+        "duration_minutes": 30,
+        "expected_start": "4:18 PM",
+        "actual_start": "4:18 PM",
+        "break_end": "4:48 PM",
+        "break_end_classification": "Calculated",
+        "delay_minutes": 0
+      }
+    ],
+    "total_detected_delay_minutes": 8,
+    "post_break_schedule": {
+      "last_break_end": "4:48 PM",
+      "final_break_bump": "5:03 PM",
+      "latest_useful_bump": "5:30 PM",
+      "post_break_interval_minutes": 30,
+      "post_break_bumps": []
+    },
+    "final_assignments": {
+      "Stand 1": "Cameron",
+      "Stand 2": "Blake",
+      "Stand 3": "Avery",
+      "Extra": "Dakota"
+    }
+  }
+}

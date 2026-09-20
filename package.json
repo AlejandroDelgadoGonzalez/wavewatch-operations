@@ -1,0 +1,50 @@
+{
+  "name": "wavewatch-operations",
+  "version": "2.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "wrangler dev --config dist/server/wrangler.json --local --ip 127.0.0.1 --port 3001 --persist-to .wrangler/preview",
+    "test": "npm run test:python && npm run test:contract && npm run test:simulation && npm run build && npm run test:ssr",
+    "test:python": "python -m unittest discover -s tests -p test_*.py",
+    "test:contract": "python scripts/export_simulation_contract.py --check",
+    "test:simulation": "node --test tests/simulation.test.ts tests/analytics.test.ts",
+    "analytics:export": "node scripts/export-analytics.ts",
+    "test:ssr": "node --test tests/rendered-html.test.mjs",
+    "test:ui": "node scripts/browser-qa.mjs",
+    "typecheck": "tsc --noEmit",
+    "types:runtime": "wrangler types worker-configuration.d.ts --config dist/server/wrangler.json",
+    "verify": "npm test && npm run lint && npm run typecheck",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}
