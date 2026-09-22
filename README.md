@@ -12,9 +12,9 @@ All people, IDs, attractions, schedules and activity are synthetic. This project
 
 ## Project ownership and development approach
 
-WaveWatch began with an operational observation: coordination teams need a clearer way to separate what was recorded from what software inferred or expected. Alejandro Delgado Gonzalez leads problem framing, operational-rule translation, scenario validation, product direction and analytics design. The project is co-developed with his brother, who contributes operations expertise and scenario validation.
+WaveWatch was jointly conceived, designed, analyzed, validated and developed by [Alejandro Delgado Gonzalez](https://github.com/AlejandroDelgadoGonzalez) and [Jesus-dg](https://github.com/Jesus-dg). They developed the project through a paired collaboration, sharing product decisions, operational analysis, scenario validation, testing and AI-assisted implementation.
 
-Implementation has been accelerated with AI-assisted development. The collaborators remain responsible for the requirements, evidence boundaries, synthetic-data design, testing, interpretation and final product decisions. The repository documents assumptions and limitations so that generated implementation is not treated as unquestioned authority.
+The initial work was completed together on a shared computer and GitHub account, so the early commit history does not represent exclusive individual authorship. Both collaborators remain jointly responsible for the requirements, evidence boundaries, synthetic-data design, testing, interpretation and final product decisions. The repository documents assumptions and limitations so that AI-generated implementation is not treated as unquestioned authority. See [AUTHORS.md](AUTHORS.md) for the authorship record.
 
 ### At a glance
 
