@@ -3,7 +3,7 @@
 WaveWatch Operations is jointly authored and developed by:
 
 - [Alejandro Delgado Gonzalez](https://github.com/AlejandroDelgadoGonzalez)
-- [Jesus-dg](https://github.com/Jesus-dg)
+- [Jesus Delgado Gonzalez](https://github.com/Jesus-dg)
 
 ## Joint authorship statement
 
